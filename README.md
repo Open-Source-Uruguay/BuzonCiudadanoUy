@@ -22,12 +22,12 @@ Actualmente las funciones principales serían:
 
 ## Desarrollo
 
-Todavía no se definió en qué plataforma desarrollarlo.
+El desarrollo de la aplicación será en Flutter.
 
 ### Repositorio
 
-Tanto la app y el servidor que se utilizará estarán disponibles en este mismo repositorio, básicamente sería un "monorepo".
-
 Se usará como flujo de trabajo algo similar a Gitflow teniendo una rama *main* para las versiones estables, *develop* para la integración de funciones y las ramas *feature* que tendrán las funciones en desarrollo.
+
+El repositorio del servidor está [aquí](https://github.com/Open-Source-Uruguay/BuzonCiudadanoUy-Server)
 
 [^1]: *El Sistema de Votos es para intentar evitar reportes duplicados además de prevenir reportes falsos, puede ser remplazado si se encuentra una mejor manera de realizar lo anteriormente mencionado.*
