@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="383.51199"
+   height="380.73199"
+   viewBox="0 0 101.47089 100.73535"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   sodipodi:docname="circlestar.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     inkscape:zoom="1.2534361"
+     inkscape:cx="205.43528"
+     inkscape:cy="219.3969"
+     inkscape:window-width="1366"
+     inkscape:window-height="768"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <ellipse
+       style="display:inline;fill:#ffffff;stroke-width:0.264314"
+       id="path1"
+       cx="50.706543"
+       cy="50.321735"
+       rx="49.968822"
+       ry="49.662949"
+       inkscape:label="borde" />
+    <ellipse
+       style="display:inline;fill:#103aa2;fill-opacity:1;stroke-width:0.229338"
+       id="path2"
+       cx="50.629318"
+       cy="50.453251"
+       rx="33.504784"
+       ry="33.405315"
+       inkscape:label="centro" />
+    <path
+       style="display:none;fill:#ffff00;fill-opacity:1;stroke-width:0.264583"
+       d="m 50.771858,29.342317 -2.72142,12.92564 -12.54147,-7.78314 7.48018,12.62093 -12.92826,3.06453 12.76368,3.30596 -6.68436,11.20041 11.358,-6.67782 3.41509,13.00946 3.10208,-12.83135 11.82118,7.04932 -7.19075,-11.24145 13.65292,-3.60367 -12.99025,-3.35616 6.25175,-11.4344 -11.10001,6.3491 z"
+       id="path3"
+       sodipodi:nodetypes="ccccccccccccccccc"
+       inkscape:label="estrella" />
+  </g>
+</svg>
