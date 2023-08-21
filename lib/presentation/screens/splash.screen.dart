@@ -1,4 +1,5 @@
 import 'package:auto_route/auto_route.dart';
+import 'package:buzonciudadano/data/adapters/controllers/app.router.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:responsive_sizer/responsive_sizer.dart';
@@ -22,15 +23,18 @@ class _SplashScreenState extends State<SplashScreen>
 
     controller = AnimationController(
       vsync: this,
-      duration: const Duration(seconds: 3),
+      //TODO: La duración debería depender de el progreso de carga
+      duration: const Duration(milliseconds: 700),
     );
 
     animation = CurvedAnimation(
       parent: controller,
-      curve: Curves.easeIn,
+      curve: Curves.linear,
     );
 
-    controller.repeat();
+    controller.forward().whenComplete(() => {
+      AutoRouter.of(context).push(const HomeRoute())
+    });
   }
 
   @override
