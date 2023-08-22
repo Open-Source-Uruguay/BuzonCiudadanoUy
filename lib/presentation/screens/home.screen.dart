@@ -9,17 +9,18 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SafeArea(
-        child: Scaffold(
-      bottomNavigationBar: navigationBar(),
-      backgroundColor: Colors.white,
-      body: Column(
-        crossAxisAlignment: CrossAxisAlignment.stretch,
-        children: [
-          locationSection(),
-          reportSection(),
-        ],
+      child: Scaffold(
+        bottomNavigationBar: navigationBar(),
+        backgroundColor: Colors.white,
+        body: Column(
+          crossAxisAlignment: CrossAxisAlignment.stretch,
+          children: [
+            locationSection(),
+            reportSection(),
+          ],
+        ),
       ),
-    ));
+    );
   }
 
   SizedBox reportSection() {
@@ -34,11 +35,12 @@ class HomeScreen extends StatelessWidget {
           Text(
             '¿Que querés reportar?',
             style: TextStyle(
-                color: Colors.black,
-                fontFamily: 'SpaceGrotesk',
-                fontSize: 20,
-                fontWeight: FontWeight.w700,
-                height: 1.20),
+              color: Colors.black,
+              fontFamily: 'SpaceGrotesk',
+              fontSize: 20,
+              fontWeight: FontWeight.w700,
+              height: 1.20,
+            ),
           ),
           SizedBox(height: 12),
           SizedBox(

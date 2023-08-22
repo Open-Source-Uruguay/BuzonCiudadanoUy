@@ -53,8 +53,10 @@ dev_dependencies:
     sdk: flutter
 
 flutter_native_splash:
-  image: assets/images/circle.svg
+  image: assets/images/brand.png
   color: "#103aa2"
+  branding: assets/images/circle.png
+  branding_mode: bottom
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
